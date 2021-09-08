@@ -244,7 +244,7 @@ def successfulLogin():
         
         cur.execute(sql)
         con.commit()
-        messagebox.showinfo('Success', 'Successfully signed up.')
+        tkinter.messagebox.showinfo('Success', 'Successfully signed up.')
         signin = 1
             
     
