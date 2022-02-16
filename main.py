@@ -9,7 +9,7 @@ from datetime import timedelta, date
  
 # ****************** CONNECTING PYTHON AND MYSQL *******************
  
-con=pymysql.connect(host='localhost',user='root',passwd='thans888',db='library_management')
+con=pymysql.connect(host=xxxx,user=xxxx,passwd=xxxx,db=xxxx)
 cur=con.cursor()
  
 cur.execute("create table if not exists studetail   (rollno varchar(20) primary key,name varchar(30),password varchar(30));")
